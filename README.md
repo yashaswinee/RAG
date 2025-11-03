@@ -9,7 +9,7 @@ Template used:
 systemTemplate = f"Answer the users question using only the provided information below: {docs}"
 ```
 
-## RagSingleQuery
+## SingleQuery
 
 The larger text is then divided into manageable chunks using the RecursiveCharacterTextSplitter. These chunks are subsequently embedded using the HuggingFace model 'intfloat/e5-large' and stored in a persistent Chroma vector database.
 
